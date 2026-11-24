@@ -1,0 +1,16 @@
+{
+  "name": "@tychelabs/uk-vehicle-data",
+  "version": "1.0.0",
+  "description": "UK vehicle data API client: DVLA vehicle enquiry and DVSA MOT history in one call, with ULEZ estimate, mileage checks and MOT/tax expiry webhooks.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "keywords": ["dvla", "dvla api", "mot", "mot history", "mot history api", "vehicle data", "ulez", "uk", "registration lookup", "vrm"],
+  "homepage": "https://api.tychelabs.net/vehicle-api",
+  "repository": { "type": "git", "url": "git+https://github.com/Tyche-Network/uk-vehicle-data-js.git" },
+  "license": "MIT",
+  "author": "Tyche Labs Ltd <info@tychelabs.net>"
+}
